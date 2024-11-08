@@ -35,7 +35,7 @@ and many more, including code architecture and reusability
 
 Cloning the Repository
 
-git clone : https://github.com/Shalini06singh/portfolio-latest
+git clone : https://github.com/dev-coder-cool/portfolio.git
 
 
 Installation

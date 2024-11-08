@@ -3,7 +3,7 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Skills", link: "#skills" },
     { name: "Contact", link: "#contact" },
-   {name: "Download Resume",link:" https://drive.google.com/file/d/1loJ8hKEDip200vfIGbhwlSeKN92PP-Gb/view?usp=sharing"}
+   {name: "Download Resume",link:"https://drive.google.com/file/d/1zOs65V0ZX5Gfjtar7EYIAlvOEg5lpafp/view?usp=drive_link"}
   ];
   
   export const gridItems = [
@@ -73,35 +73,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Doctor on Call",
+      des: "Developed using the React, Nodejs, and Prisma stack, it offers a professional website with dynamic functionalities. Key features include dynamic home, Email Notification, Filtering doctors, Setting up appointments and patients/doctors dashboards, secure user login with validation mechanisms, appointment scheduling with access to doctor details, patient appointment management.",
+      img: "/intro.jpg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      link: "https://github.com/dev-coder-cool/book_store.git",
+    },
+    {
+      id: 2,
+      title: "Online Boostore",
+      des: "Developed and implemented essential online bookstore functionalities from scratch, including search, add-to-cart.",
+      img: "/bookstore.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/dev-coder-cool/healthcare.git",
+    },
+    {
+      id: 3,
       title: "Farm2Fork",
       des: "Comprehensive e-commerce solution built using React Redux Toolkit for dynamic client-side experiences, paired with a Node Express API backend and MongoDB database.",
       img: "/p1.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/Shalini06singh/Farm2Fork",
+      link: "https://github.com/dev-coder-cool/farm",
     },
     {
-      id: 2,
+      id: 4,
       title: "Blog Management System",
       des: "Built using Node.js, React.js, JavaScript, Bootstrap, and REST API.Explore a comprehensive solution for managing blogs, including user authentication and authorization functionalities with a robust login, register, and logout system.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/Shalini06singh/Blog_Management",
-    },
-    {
-      id: 3,
-      title: "Currency Convertor",
-      des: "API-integrated currency converter built with Vite and React, leveraging custom hooks for efficient state management and functionality.",
-      img: "/p3.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/Shalini06singh/currencyConverter",
-    },
-    {
-      id: 4,
-      title: "Elite Shoppee Front-end Website",
-      des: "Developed and implemented essential e-commerce functionalities from scratch , including search, add-to-cart, checkout and remove-from-cart features with proper authentication.",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Shalini06singh/E-commerce-App?tab=readme-ov-file",
+      link: "https://github.com/dev-coder-cool/Mern-Blog",
     },
   ];
   
@@ -119,7 +119,7 @@ export const navItems = [
     {
       id: 2,
       title: "Backend Technologies",
-      desc: "Designed and developed using Node.js, Typescript, Express,js.",
+      desc: "Designed and developed using Node.js, Typescript, Express,js., PHP, Laravel",
       className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
